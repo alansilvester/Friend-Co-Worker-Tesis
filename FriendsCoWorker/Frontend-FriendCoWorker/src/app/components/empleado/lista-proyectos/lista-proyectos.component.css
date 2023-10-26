@@ -1,0 +1,147 @@
+.body {
+  /* font-family: "Poppins", sans-serif; */
+  height: 100%;
+  font-family: "Noto Sans JP", sans-serif;
+  /*background-color: #EB5600;*/
+  background: #2980b9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #6dd5fa,
+    #2980b9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #6dd5fa,
+    #2980b9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.body100 {
+  /* font-family: "Poppins", sans-serif; */
+  height: 100vh;
+  font-family: "Noto Sans JP", sans-serif;
+  /*background-color: #EB5600;*/
+  background: #2980b9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #6dd5fa,
+    #2980b9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #6dd5fa,
+    #2980b9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.my-card
+{
+    position:absolute;
+    left:40%;
+    top:-20px;
+    border-radius:50%;
+}
+
+.row{
+  display: flex;
+  justify-content: space-around;
+}
+
+.param {
+  margin-bottom: 7px;
+  line-height: 1.4;
+}
+.param-inline dt {
+  display: inline-block;
+}
+.param dt {
+  margin: 0;
+  margin-right: 7px;
+  font-weight: 600;
+}
+.param-inline dd {
+  vertical-align: baseline;
+  display: inline-block;
+}
+
+.param dd {
+  margin: 0;
+  vertical-align: baseline;
+}
+
+.shopping-cart-wrap .price {
+  color: #007bff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 5px;
+  display: block;
+}
+var {
+  font-style: normal;
+}
+
+.media img {
+  margin-right: 1rem;
+}
+.img-sm {
+  width: 90px;
+  max-height: 75px;
+  object-fit: cover;
+}
+
+.parrafo{
+  font-size: 30px;
+}
+
+.card-novisible{
+  border-radius: 30px;
+}
+
+.botonSumar{
+  margin: 0 auto;
+  display: flex;
+}
+
+.botonSumar:hover{
+  background-color: #17658b;
+  color: white;
+}
+
+.imagen{
+  width: 500px;
+  height: 500px;
+}
+
+h1{
+  font-size: 32px;
+  font-weight: 400;
+  color: #0f86bd;
+}
+
+.card{
+  border-radius: 15px;
+}
+
+.imgMockup{
+  width: 100%;
+  margin-top: 15px;
+  border: solid;
+  border-color: gray;
+  border-radius: 30px;
+  margin-bottom: 5px;
+}
+
+@media (min-width: 300px) and (max-width: 500px){
+  .imagen{
+    width: 300px;
+    height: 300px;
+  }
+
+  body{
+    height: 100%;
+  }
+}
